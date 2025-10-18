@@ -1295,7 +1295,7 @@ local aa, ab, ac, ad, ae, af, ag, c, e, f, g, h, i, j, k, l, m, n, o, p, q = {fu
                         A = true
                         l:Notify{
                             Title = 'Interface',
-                            Content = "388235676",
+                            Content = `Press {l.Utilities:Prettify(O)} to toggle the interface.`,
                             Duration = 6
                         }
                     end
