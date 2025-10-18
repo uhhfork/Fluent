@@ -734,8 +734,6 @@ local aa, ab, ac, ad, ae, af, ag, c, e, f, g, h, i, j, k, l, m, n, o, p, q = {fu
                     setmetatable(w, r)
                     return w
                 end
-                t.CreateSection = t.Section
-                t.AddSection = t.Section
                 setmetatable(t, r)
                 return t
             end
